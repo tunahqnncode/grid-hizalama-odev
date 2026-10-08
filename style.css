@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    /*justify-items: start; hücre içinde yatay */
+    /* align-items: center; hücre İÇİNDE dikey*/
+    /* justify-content: center; IZGARANIN kap içindeki yatay yeri */
+    /* align-content: center;  IZGARANIN kap içindeki dikey yeri */
+    /* place-items: center; justify-items + align-items  */
+    place-content: center;
 }
 
 .box {
